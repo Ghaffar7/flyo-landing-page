@@ -54,6 +54,10 @@ body {
   text-decoration: none;
 }
 
+.file__section {
+  padding-bottom: 8rem;
+}
+
 .file__image {
   display: grid;
   place-content: center;
@@ -121,19 +125,17 @@ body {
 }
 
 .product__section {
-  padding-top: 9.6rem;
-}
-
-.bg-curve-mobile {
-  width: 100%;
-  margin-bottom: -1rem;
-}
-
-.background {
   background-color: var(--light-grayish-blue);
+  padding-bottom: 6rem;
   padding-top: 4rem;
-  padding-bottom: 8rem;
+  position: relative;
 }
+
+.curve__seperator {
+  display: block;
+  width: 100%;
+}
+
 
 .product__image {
   padding-bottom: 3rem;
@@ -397,6 +399,10 @@ li a:hover {
     font-size: 0.75rem;
     font-weight: 700;
     padding: 0.7rem 2.5rem;
+  }
+
+  .curve__seperator {
+    content: url(./images/bg-curve-desktop.svg);
   }
 
   .product {
